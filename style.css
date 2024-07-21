@@ -1,0 +1,29 @@
+.list{
+list-style: none;
+}
+
+.completed {
+font-style: oblique;
+text-decoration: line-through solid #2e9aff 2px;
+color: gray;
+}
+
+.completed::after {
+display: inline-block;
+content: '\2713';
+}
+
+.container{
+	width: 90%; 
+	margin: auto;
+	text-align: center;
+}
+
+
+button {
+	border-radius: 3px;
+	background-color: blue;
+	color: aliceblue;
+}
+button:hover 
+{background-color: lightblue;}
